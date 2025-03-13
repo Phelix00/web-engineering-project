@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Cup Tournament</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            text-align: center;
+            padding: 20px;
+        }
+        .tournament-table {
+            width: 80%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            background: white;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #bee72b;
+            color: white;
+        }
+        .color {
+            background-color: #f2f2f2;
+        }
+        #btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #4285f4;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+        #btn:hover {
+            background-color: #357ae8;
+        }
+    </style>
+</head>
+<body>
+    <h1>FIFA World Cup Tournament Table</h1>
+    <table class="tournament-table">
+        <thead>
+            <tr>
+                <th>Group A</th>
+                <th>Group B</th>
+                <th>Group C</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ghana</td>
+                <td>Brazil</td>
+                <td>Argentina</td>
+            </tr>
+            <tr class="color">
+                <td>Portugal</td>
+                <td>England</td>
+                <td>France</td>
+            </tr>
+            <tr>
+                <td>Canada</td>
+                <td>Switzerland</td>
+                <td>USA</td>
+            </tr>
+            <tr class="color">
+                <td>Uruguay</td>
+                <td>Senegal</td>
+                <td>Cameroon</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
